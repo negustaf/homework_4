@@ -67,7 +67,7 @@ footer{
   display:grid;
   margin:auto;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: auto;
+  grid-template-rows: repeat(5,auto);
   grid-row-gap:15px;
 }
 header{
@@ -118,7 +118,7 @@ header p{
 @media all and (min-width: 800px){
   nav{
     padding: 30px 0px;
-    text-align:right;
+    text-align: right;
   }
   .container{
     grid-template-columns: 50px auto 500px auto 50px;
